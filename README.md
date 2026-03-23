@@ -71,24 +71,3 @@ pip install -r requirements.txt
 ### Запуск(Пример)
 ```bash
 python main.py -i videos/test.avi -o output/result.mp4
-
-## Структура проекта
-
-```text
-.
-├── main.py
-├── requirements.txt
-└── src
-    ├── __init__.py
-    ├── config.py
-    ├── application
-    │   ├── __init__.py
-    │   └── processor.py
-    ├── services
-    │   ├── __init__.py
-    │   ├── analyzer.py
-    │   └── detectors.py
-    └── domain
-        ├── __init__.py
-        ├── enums.py
-        └── models.py
