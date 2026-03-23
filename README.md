@@ -55,6 +55,23 @@
   - `RED` → `STOP`
   - `GREEN` → `GO!`
 
+
+        ## Зависимости
+
+Проект использует следующие библиотеки:
+
+- `opencv-python-headless`
+- `numpy`
+
+### Установка
+
+```bash
+pip install -r requirements.txt
+
+### Запуск(Пример)
+```bash
+python main.py -i videos/test.avi -o output/result.mp4
+
 ## Структура проекта
 
 ```text
@@ -75,19 +92,3 @@
         ├── __init__.py
         ├── enums.py
         └── models.py
-
-        ## Зависимости
-
-Проект использует следующие библиотеки:
-
-- `opencv-python-headless`
-- `numpy`
-
-### Установка
-
-```bash
-pip install -r requirements.txt
-
-### Запуск(Пример)
-```bash
-python main.py -i videos/test.avi -o output/result.mp4
